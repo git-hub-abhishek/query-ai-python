@@ -67,7 +67,7 @@ if __name__ == "__main__":
              vectorstore.add_embeddings([(table, embedding)])
              
     
-    prompt = "Which film did the customers from country England rented the most"
+    prompt = "Which film did the customers from country Africa rented the most"
     #"what are tables needed to find out films of which language got rented maximum number of times in 2022"
     #"Which film did the customers from England rented the most"
     print("The prompt is:",prompt)
